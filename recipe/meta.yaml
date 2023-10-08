@@ -1,5 +1,5 @@
 {% set name = "numbagg" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numbagg-{{ version }}.tar.gz
-  sha256: 58edcc31531a60527f29290ad42f5b734f328a9348bd5ef6cd0a3b1044183181
+  sha256: 43f530724ea19768a58092bd00bca7744e0d41c8b161399c6c5d5f8f56d49a34
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
