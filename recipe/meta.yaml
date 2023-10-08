@@ -16,11 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
+    - setuptools
+    - wheel
+    - setuptools-scm
     - pip
-    - setuptools_scm
   run:
-    - python >=3.8
+    - python >=3.9
     - numpy
     - numba
 
