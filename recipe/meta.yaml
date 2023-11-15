@@ -42,5 +42,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - max-sixty
     - dcherian
     - ocefpaf
