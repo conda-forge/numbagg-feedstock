@@ -143,5 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dcherian](https://github.com/dcherian/)
+* [@max-sixty](https://github.com/max-sixty/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
