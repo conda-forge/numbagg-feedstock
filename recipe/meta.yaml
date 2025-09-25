@@ -1,5 +1,5 @@
 {% set name = "numbagg" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/numbagg-{{ version }}.tar.gz
-  sha256: 7c3107d9fa10de999d17640bedb835669005008b16eb0aa308d6854b1ce49d2b
+  sha256: 8d96a7c627f0a1692e2a2304e6de2d89d53c3fa2e1adef7dcb5f1541e95c1752
 
 build:
   noarch: python
